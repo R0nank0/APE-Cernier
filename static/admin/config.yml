@@ -1,1 +1,19 @@
+backend:
+  name: github
+  repo: R0nank0/APE-Cernier
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Articles"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
 
