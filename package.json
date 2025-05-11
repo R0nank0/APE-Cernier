@@ -1,11 +1,13 @@
 {
-  "name": "APE-Cernier",
+  "name": "mon-site-eleventy",
   "version": "1.0.0",
   "scripts": {
     "build": "eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
+  },
+  "dependencies": {
     "luxon": "^3.4.3"
   }
 }
